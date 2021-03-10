@@ -15,6 +15,7 @@ class Survey {
 
   @CreateDateColumn()
   created_at: Date;
+    value: number;
 
   constructor() {
     if (!this.id) {
